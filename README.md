@@ -1,4 +1,7 @@
-﻿![Sumtotal](https://plsadaptive.s3.amazonaws.com/gmedia/jpg/_i_a6a0bc8dba67fd7c5a4a86c08c49ff20_sumtotal_logo.jpg)
+﻿<p align="center" width="100%">
+    <img width="33%" src="https://marketplace.sumtotalsystems.com/content/images/vendor/SumTotal_logo.png"> 
+</p>
+
 # Introduction
 This sample code base is intended to demonstrate the authentication and basic functionality of Sumtotal’s User related OData API. It utilizes SumTotal’s OAuth 2.0 authentication to obtain an access token via User Authorization or Client Credentials (B2B) 
 ## Prerequisites
@@ -94,7 +97,7 @@ The Client Credentials grant type is used by clients to obtain an access token o
         client_id=b2b_oidc&client_secret=b2b_secret&grant_type=client_credentials
         
 ##### AUTHENTICATION RESPONSE
-    {"access_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IkEwQjVCMUFCMTUzMjI1MzRDNUIxQUU3QTdEMjZDRkI3NDYzNTIwMzMiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJvTFd4cXhVeUpUVEZzYTU2ZlNiUHQwWTFJRE0ifQ.eyJuYmYiOjE1NzExMzU3ODgsImV4cCI6MTU3MTE0Mjk4OCwiaXNzIjoiaHR0cHM6Ly9hdTA0c2FsZXMuc3VtdG90YWxkZXZlbG9wbWVudC5uZXQvYXBpc2VjdXJpdHkiLCJhdWQiOlsiaHR0cHM6Ly9hdTA0c2FsZXMuc3VtdG90YWxkZXZlbG9wbWVudC5uZXQvYXBpc2VjdXJpdHkvcmVzb3VyY2VzIiwiZXh0YXBpcyJdLCJjbGllbnRfaWQiOiJiMmJfb2lkYyIsImJyb2tlcnNlc3Npb24iOiJkZjZhMzI5Zi02MjRkLTRkN2ItODBkYy1kNDdhM2U1ODVkYzIiLCJzY29wZSI6WyJhbGxhcGlzIl19.VKurjJBPar7K-KjExPJhInA9T5aIpm6NZyjVCaLLN5Dt4QJkQZTZq7p0EhEfzshtqVck2GSba-pxLNkPLbeONkBKTcYQGRKUgzlk787NPnn4_fSHCOxy-LDykIbv6G_zWcT3RW9_DE4ap5t2tmTPPgEHi3huYx_YabYL4WSpSslbs7tttIi1qI2m9NpN3apsT8uMT7izr5PbmrHGGWPhBI-lmwjx2l2Y8mh62ErPm281VSYVSrTkRPPSQHrkySLskYYiGXy0zUZuIa5abveTnTqFH9uxWL1Nt-wuC4AgRhacJTcmdaBynN8mguvQaL64fcNTt1yl9Tnf2T6XFDKogQ","expires_in":7200,"token_type":"Bearer","scope":"allapis"}
+    {"access_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IkEwQjVCMUFCMTUzMjI1MzRDNUIxQUU3QTdEMjZDRkI3NDYzNTIwMzMiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJvTFd4cXhVeUpUVEZzYTU2ZlNiUHQwWTFJRE0ifQ.eyJuYmYiOjE1NzExMzU3ODgsImV4cCI6MTU3MTE0Mjk4OCwiaXNzIjoiaHR0cHM6Ly9hdTA0c2FsZXMuc3VtdG90YWxkZXZlbG9wbWVudC5uZXQvYXBpc2VjdXJpdHkiLCJhdWQiOlsiaHR0cHM6Ly9hdTA0c2FsZXMuc3VtdG90YWxkZXZlbG9wbWVudC5uZXQvYXBpc2VjdXJpdHkvcmVzb3VyY2VzIiwiZXh0YXBpcyJdLCJjbGllbnRfaWQiOiJiMmJfb2lkYyIsImJyb2tlcnNlc3Npb24iOiJkZjZhMzI5Zi02MjRkLTRkN2ItODBkYy1kNDdhM2U1ODVkYzIiLCJzY29wZSI6WyJhbGxhcGlzIl19.VKurjJBPar7K-KjExPJhInA9T5aIpm6NZyjVCaLLN5Dt4QJkQZTZq7p0EhEfzshtqVck2GSba-pxLNkPLbeONkBKTcYQGRKUgzlk787NPnn4_fSHCOxy-LDykIbv6G_zWcT3RW9_DE4ap5t2tmTPPgEHi3huYx_YabYL4WSpSslbs7tttIi1qI2m9NpN3apsT8uMT7izr5PbmrHGGWPhBI-lmwjx2l2Y8mh62ErPm281VSYVSrTkRPPSQHrkySLskYYiGXy0zUZuIa5abveTnTqFH9uxWL1Nt-wuC4AgRhacJTcmdaBynN8mguvQaL64fcNTt1yl9Tnf2T6XFDKogQ","expires_in":7200,"token_type":"Bearer","scope":"odataapis"}
     
 
     
